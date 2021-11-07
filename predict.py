@@ -50,7 +50,7 @@ def app(df):
           
           return "Iris-versicolor"
 
-    st.markdown("<p style='color:brown;font-family:cursive;font-size:30px'>Iris Flower Species Prediction App",unsafe_allow_html = True)
+    st.markdown("<p style='color:brown;font-family:cursive;font-size:30px'>Iris Flower Species Prediction",unsafe_allow_html = True)
     #st.title("Iris Flower Species Prediction App")
     st.sidebar.title("Iris Flower Features")       
      
