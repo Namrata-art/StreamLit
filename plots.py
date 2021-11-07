@@ -7,7 +7,7 @@ import streamlit as st
 
 def app(df):
  
-  st.markdown("<p style='color:brown;font-family:cursive;font-size:30px'>Iris Flower Species Prediction",unsafe_allow_html = True)
+  st.markdown("<p style='color:brown;font-family:cursive;font-size:30px'>Iris Flower Species Visualization",unsafe_allow_html = True)
   st.header('Visualise data')
   #st.set_option('deprecation.showPyplotGlobalUse', False)
   feature1 = st.selectbox("Select the x-axis values:",('SepalLengthCm','SepalWidthCm'))
